@@ -1,0 +1,15 @@
+
+debug: true
+
+database:
+  user: account
+  password: account
+  host: 127.0.0.1
+  port: 5432
+  name: account
+
+server:
+  http:
+    host: 127.0.0.1
+    port: 8080
+    workers: 1
