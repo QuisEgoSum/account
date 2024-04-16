@@ -1,0 +1,21 @@
+
+database:
+  postgres:
+    username: test
+    password: test
+    db: test
+    host: 127.0.0.1
+    port: 5432
+    pool_size: 20
+
+server:
+  http:
+    host: 0.0.0.0
+    port: 15000
+    workers: 2
+  address:
+    docs: /openapi
+
+logger:
+  level: INFO
+  mode: traceback
